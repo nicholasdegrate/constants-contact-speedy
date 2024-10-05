@@ -1,0 +1,32 @@
+{
+  "name": "constantscontact",
+  "version": "1.0.0",
+  "description": "Constants Contact",
+  "author": "nicholasdegrate<nicholasdegrate@gmail.com>",
+  "scripts": {
+    "start": "nodemon --config nodemon.json"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@fastify/helmet": "^10.1.1",
+    "@prisma/client": "^5.20.0",
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "typescript": "^5.6.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.10.9",
+    "@swc/core": "^1.7.26",
+    "@types/node": "^18.19.54",
+    "nodemon": "^2.0.22",
+    "prisma": "^5.20.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "prisma": {
+    "seed": "ts-node -r @swc-node/register -r tsconfig-paths/register prisma/seed/index.ts"
+  }
+}

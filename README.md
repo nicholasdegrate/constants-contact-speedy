@@ -1,0 +1,2 @@
+# constants-contact-speedy
+Constants Contact Speedy is a simple and experimental platform designed to help my spouse improve her workflow by reducing redundancy in creating marketing campaigns for work. This platform is intended for educational purposes only and should not be used for production use cases or in a company setting. This code is not intended to meet grade-level security or production-level quality standards.

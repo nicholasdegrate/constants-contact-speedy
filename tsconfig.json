@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strict": true,
+    "target": "ES2022",
+    /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "CommonJS",
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noImplicitThis": true,
+    /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,
+    /* Ensure that casing is correct in imports. */
+    "skipLibCheck": true,
+    /* Skip type checking all .d.ts files. */
+    "strictFunctionTypes": true,
+		"noUncheckedIndexedAccess": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "useUnknownInCatchVariables": true,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noUnusedParameters": true,
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "allowJs": true,
+    "noEmit": true,
+  },
+  "include": ["./src/"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "./prisma/seed/",
+    ".src/**/*.test.ts"
+  ]
+}
