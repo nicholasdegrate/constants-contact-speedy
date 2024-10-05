@@ -3,3 +3,5 @@ node_modules
 # sqlite
 cc.db
 cc.db-journal
+
+.env
